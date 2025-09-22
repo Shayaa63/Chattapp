@@ -8,17 +8,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Chattapp</h1>   
+    </header>
     <main>
         <div id="app">
             <div id="chat-container">
-                <div id="messages"></div>
-                <form id="message-form">
-                    <input type="text" id="message-input" placeholder="Skriv ditt meddelande..." autocomplete="off" required />
-                    <button type="submit">Send</button>
-                </form>
+                <div id="meddelanden">
+                    <ul>
+                        <li>
+                            <div id="Välkommst-meddelande">Välkommen till chattappen!</div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="input-container">
+                    <form id="message-form">
+                        <input type="text" id="meddelande-input" placeholder="Skriv ditt meddelande..." autocomplete="off" required />
+                        <button type="submit" id="skicka-knapp">Skicka</button>
+                    </form>
+                </div>
             </div>
         </div>
-
     </main>
+    <footer>
+        <p>&copy; 2024 Chattapp. All rights reserved.</p>   
+    </footer>
 </body>
 </html>
